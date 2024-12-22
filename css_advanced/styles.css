@@ -1,0 +1,57 @@
+
+html {
+  scroll-behavior: smooth;
+  font-family: "source-sans-pro";
+}
+
+body {
+  font-family: var(--font-family-base);
+  max-width: 120rem;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "source-sans-pro";
+}
+
+button {
+  text-align: var(--font-align);
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  padding: 1rem 2rem;
+  border-radius: var(--button-border-radius);
+  box-shadow: var(--button-box-shadow);
+  border: none;
+  font-size: var(--button-font-size);
+  font-weight: 600;
+  font-family: "source-sans-pro";
+}
+
+/* Header And Banner */
+
+.banner {
+  background-image: url(image/Object.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: var(--font-align);
+  background-color: #071629;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+}
+
+nav > a {
+  color: var(--link-text-color);
+  text-decoration: var(--link-text-decoration);
+  font-weight: var(--header-menu-font-weight);
+  line-height: var(--header-menu-line-height);
+  font-style: var(--header-menu-font-style);
+  font-size: var(--header-font-size);
+  height: var(--header-menu-height);
+  padding-left: 3rem;
+}
