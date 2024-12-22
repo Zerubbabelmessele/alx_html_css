@@ -1,3 +1,149 @@
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-Black.otf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-BlackIt.otf");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-BoldIt.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-ExtraLight.otf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-ExtraLightIt.otf");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-It.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-LightIt.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-Semibold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("source-sans-pro/SourceSansPro-SemiboldIt.otf");
+  font-weight: 600;
+  font-style: italic;
+}
+
+:root {
+  --color-primary: #c271ff;
+  --color-light-black: #071629;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #d8d8d8;
+  --radial-gradient: #29303d00, #071629;
+
+  --primary-text-color: var(--color-white);
+  --secondary-text-color: var(--color-black);
+
+  --font-family-base: "Source Sans Pro";
+  --font-align: center;
+  --font-style: normal;
+
+  /* HEADER */
+
+  --header-width: 68.96rem;
+  --header-height: 1.84rem;
+  --header-font-family: var(--font-family-base);
+  --header-font-size: 0.93rem;
+  --header-menu-height: 0.75rem;
+  --header-menu-font-weight: 700;
+  --header-menu-line-height: normal;
+  --header-menu-font-style: var(--font-style);
+  --header-font-color: var(--color-white);
+
+  /* LOGO */
+
+  --logo-width: 10.44rem;
+  --logo-height: 1.84rem;
+
+  /* LINKS */
+
+  --link-text-color: var(--color-white);
+  --link-text-decoration: none;
+
+  /* MAIN */
+
+  --main-text-color: var(--color-white);
+  --main-font-family: var(--font-family-base);
+  --main-heading-font-size: 7.5rem;
+
+  /* BUTTON */
+  /* --button-width: 10.12rem; */
+  /* --button-height: 4.75rem; */
+  --button-font-size: 1rem;
+  --button-background-color: var(--color-primary);
+  --button-font-weight: 600;
+  --button-font-style: var(--font-style);
+  --button-line-height: normal;
+  --button-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  --button-text-color: var(--color-white);
+  --button-border-radius: 50px;
+}
+/* Base */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
