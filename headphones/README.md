@@ -1,0 +1,1 @@
+This project is part of my ALX curriculum, focusing on implementing a front-end design from scratch. It involves building a responsive and visually appealing user interface using HTML and CSS. The goal is to demonstrate proficiency in front-end development and design implementation.
